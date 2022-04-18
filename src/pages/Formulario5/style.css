@@ -1,0 +1,24 @@
+.tabela {
+    width: 90%;
+    max-width: 800px;
+    margin-top: 20px;
+}
+
+.thMeio{
+    width: 50%;
+}
+
+.inputT{
+    width: 100%;
+    border-radius: 8px;
+    
+}
+
+@media print {
+    .noPrint{
+    display: none;
+    }
+    .titulo {
+        margin-top: -35px;
+    }
+  }

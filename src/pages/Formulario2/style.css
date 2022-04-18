@@ -1,0 +1,37 @@
+.containerRed {
+    width: 700px;
+    color: white;
+    font-weight: 600;
+    background-color: #AD1D06;
+    padding: 13px;
+    border-radius: 8px;
+    margin: 10px;
+}
+
+.pContainer{
+    text-align: center;
+    margin-left: 90px;
+    margin-top: 20px;
+}
+.cadastro{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+    .containerRed {
+        width: 100%;
+    }
+
+    .pContainer{
+        text-align: center;
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+    .textRed{
+        text-align: center;
+    }
+    .pFooter{
+        text-align: center;
+    }
+}

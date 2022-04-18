@@ -1,0 +1,252 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-image: url(https://i.ibb.co/ZJNy0mL/fundo-testeira.jpg);
+  background-repeat: repeat-x;
+}
+
+.textHeader {
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 800px;
+  text-align: center;
+}
+
+.textHeader h1 {
+  font-weight: 600;
+}
+
+.textHeader span {
+  margin-top: -20px;
+  margin-bottom: 10px;
+}
+
+.textRed {
+  color: red;
+  font-weight: 600;
+}
+
+.textNormal {
+  font-size: 14px;
+  margin-top: -15px;
+}
+
+.fildsOne {
+  width: 400px;
+}
+
+.typeInput {
+  display: flex;
+}
+
+.typeInput1 input {
+  margin: 4px;
+  width: 300px;
+  height: 25px;
+  border-radius: 8px;
+  padding: 5px;
+}
+.typeInput2 input {
+  margin: 4px;
+  height: 25px;
+  border-radius: 8px;
+  padding: 5px;
+  width: 304.5px;
+}
+.typeInput3 input {
+  margin: 4px;
+  height: 25px;
+  border-radius: 8px;
+  padding: 5px;
+  width: 323px;
+}
+.typeInput4 input {
+  margin: 4px;
+  height: 25px;
+  border-radius: 8px;
+  padding: 5px;
+  width: 305px;
+}
+.typeInput5 input {
+  margin: 4px;
+  height: 25px;
+  border-radius: 8px;
+  padding: 5px;
+  width: 265px;
+}
+
+.typeInput6 input {
+  margin: 4px;
+  height: 25px;
+  border-radius: 8px;
+  padding: 5px;
+  width: 192px;
+}
+
+.tituloEquipamentos {
+  margin: 20px;
+}
+
+.containerEquipamentos {
+  width: 800px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.tabela1 {
+  width: 380px;
+}
+
+.thEquipamentos {
+  width: 60%;
+}
+
+.inputNumber {
+  width: 50px;
+}
+
+.buttonCalcular {
+  margin: 20px;
+  background: #005b26;
+  border: none;
+  height: 50px;
+  width: 100px;
+  border-radius: 8px;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.results {
+  width: 600px;
+  text-align: center;
+}
+.results tr {
+  height: 70px;
+}
+
+.containerFooter {
+  width: 700px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.containerInterno {
+  width: 300px;
+}
+
+.textRed1 {
+  color: red;
+  font-weight: 600;
+  font-size: 20px;
+  margin-top: -10px;
+}
+
+.inputFooter {
+  margin: 4px;
+  height: 25px;
+  border-radius: 8px;
+  padding: 5px;
+  width: 192px;
+}
+
+.input2 {
+  width: 50px;
+}
+
+@media only screen and (max-width: 600px) {
+  .textHeader {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .typeInput1 {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+  }
+
+  .typeInput1 input {
+    margin: 4px;
+    width: 100%;
+  }
+  .typeInput2 {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+  }
+
+  .typeInput2 input {
+    margin: 4px;
+    width: 100%;
+  }
+  .typeInput3 {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+  }
+
+  .typeInput3 input {
+    margin: 4px;
+    width: 100%;
+  }
+  .typeInput4 {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+  }
+
+  .typeInput4 input {
+    margin: 4px;
+    width: 100%;
+  }
+  .typeInput5 {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+  }
+
+  .typeInput5 input {
+    margin: 4px;
+    width: 100%;
+  }
+  .typeInput6 {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+  }
+
+  .typeInput6 input {
+    margin: 4px;
+    width: 100%;
+  }
+  .containerEquipamentos{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+  }
+  .thMobile{
+    display: none;
+  }
+  .results {
+    width: 100%;
+  }
+  .pFooter{
+    width: 400px;
+    text-align: center;
+  }
+}

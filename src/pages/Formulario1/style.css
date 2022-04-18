@@ -1,0 +1,165 @@
+.container {
+  width: 100%;
+}
+
+.filds {
+  width: 100%;
+  max-width: 550px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-left: -100px;
+}
+
+.input1 {
+  margin: 5px;
+}
+
+.input1 input {
+  border-radius: 8px;
+  width: 380px;
+  margin-left: 15px;
+}
+
+.textArea {
+  display: flex;
+  text-align: end;
+}
+
+.textArea textarea {
+  width: 520px;
+  border-radius: 8px;
+  margin-left: 15px;
+  margin-right: 4px;
+}
+
+.textArea2 {
+  display: flex;
+  text-align: end;
+}
+
+.textArea2 textarea {
+  width: 385px;
+  border-radius: 8px;
+  margin-left: 15px;
+  margin-right: 4px;
+}
+
+
+.textArea3 {
+  display: flex;
+  text-align: end;
+}
+
+.textArea3 textarea {
+  width: 385px;
+  border-radius: 8px;
+  margin-left: 15px;
+  margin-right: 4px;
+}
+
+.imageC {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  text-align: left;
+}
+
+.resp {
+  margin: 25px;
+}
+
+@media only screen and (max-width: 600px) {
+  .filds {
+    margin-left: 0px;
+  }
+
+  .input1 {
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    align-items: center;
+  }
+
+  .input1 input {
+    border-radius: 8px;
+    width: 100%;
+    max-width: 380px;
+    margin-left: 15px;
+  }
+
+  .textArea {
+    display: left;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+  }
+  .textArea textarea {
+    width: 97%;
+    max-width: 500px;
+    border-radius: 8px;
+    margin-left: 10px;
+  }
+  .textArea2 {
+    display: left;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+  }
+  .textArea2 textarea {
+    width: 97%;
+    max-width: 520px;
+    border-radius: 8px;
+    margin-left: 10px;
+  }
+  .textArea3 {
+    display: left;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+  }
+  .textArea3 textarea {
+    width: 97%;
+    max-width: 520px;
+    border-radius: 8px;
+    margin-left: 10px;
+  }
+
+  .textAreaSocial {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .textAreaSocial textarea {
+    width: 97%;
+    max-width: 380px;
+    border-radius: 8px;
+    margin-left: 10px;
+    margin-right: 5px;
+  }
+  .imageC {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+  }
+}
+.textAreaSocial {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.textAreaSocial textarea {
+  width: 97%;
+  max-width: 380px;
+  border-radius: 8px;
+  margin-left: 10px;
+  margin-right: 5px;
+}
